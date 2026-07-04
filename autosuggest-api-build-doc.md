@@ -1,11 +1,5 @@
 # Autosuggest Backend API — Build Documentation
 
-This doc is written so you can hand it to a coding assistant (opencode, Claude Code,
-Cursor, etc.) one numbered step at a time, and it will have everything it needs
-without guessing. It also works as a spec if you want to build it by hand.
-
----
-
 ## 1. Project Goal
 
 Build an Express.js backend that serves autosuggest results from a static
@@ -14,7 +8,6 @@ frontend to demo it (search box + dropdown + algorithm picker).
 
 ## 2. Confirmed Data Shape
 
-`phrases.json` looks like this (already verified against the real file):
 
 ```json
 {
